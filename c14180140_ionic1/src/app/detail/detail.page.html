@@ -1,0 +1,13 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title id="title">Detail {{judul}}</ion-title>
+    <ion-button id="menu" routerLink="/input">Input Page</ion-button> 
+    <ion-button id="menu" routerLink="/favorite">Favorite Page</ion-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <p> {{isi}} </p>
+  <p> {{tanggal}} </p>
+  <ion-button (click)="liked()">{{button_text}} </ion-button>
+</ion-content>
